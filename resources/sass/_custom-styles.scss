@@ -1,0 +1,64 @@
+@import 'variables';
+
+.important-links a,
+.information-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.important-links a:hover,
+.information-links a:hover {
+    text-decoration: underline;
+}
+
+/* media query */
+
+@media (max-width: 575px) {
+    .border-right-bottom-0 {
+        border-bottom-right-radius: 0px !important;
+    }
+    
+    .border-left-bottom-0 {
+        border-bottom-left-radius: 0px !important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {  
+    .about-us h5.administration-and-work-departments { margin-top: 15px; margin-bottom: 15px; }
+    .footer img.footer-nsd-logo { margin-top: 25px; margin-bottom: 25px; }
+    .footer .contact-us-links { margin-top: 15px; }
+    .footer .information-links { margin-top: 15px; }
+    .border-right-bottom-0 {
+        border-bottom-right-radius: 0px !important;
+    }
+    
+    .border-left-bottom-0 {
+        border-bottom-left-radius: 0px !important;
+    }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) and (max-width: 991px) {
+    .about-us h5.administration-and-work-departments { margin-top: 15px; margin-bottom: 15px; }
+    .footer img.footer-nsd-logo { margin-top: 25px; margin-bottom: 25px; }
+    .footer .contact-us-links { margin-top: 15px; }
+    .footer .information-links { margin-top: 15px; }
+    .border-right-bottom-0 {
+        border-bottom-right-radius: 0px !important;
+    }
+    
+    .border-left-bottom-0 {
+        border-bottom-left-radius: 0px !important;
+    }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
