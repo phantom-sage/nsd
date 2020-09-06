@@ -20,7 +20,7 @@ class TeamController extends Controller implements Language
     {
         $this->middleware('throttle:360,1');
         $this->middleware('auth')->except([
-            'inddex',
+            'index',
             'show'
         ]);
     }
