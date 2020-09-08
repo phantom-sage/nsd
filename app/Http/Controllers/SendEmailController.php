@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Mail\ContactUs;
+use Illuminate\Support\Facades\Mail;
 
 class SendEmailController extends Controller
 {

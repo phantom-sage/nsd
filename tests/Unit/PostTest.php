@@ -13,6 +13,6 @@ class PostTest extends TestCase
      */
     public function testExample()
     {
-        $this->assertTrue(true);
+        $this->assertEquals(true, true);
     }
 }

@@ -39,7 +39,7 @@ Route::get('/contact-us/{lang}', 'ContactUsController')
     ->middleware('throttle:360,1')
     ->where('lang', '[a-z]{2}');;
 
-Route::post('/send/email', 'SendEmailContrller@send')
+Route::post('/send/email', 'SendEmailController@send')
     ->name('sending.email')->middleware('throttle:360,1');
 
 // our services
