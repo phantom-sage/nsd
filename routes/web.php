@@ -20,32 +20,32 @@ Auth::routes();
 // home
 Route::get('/home', 'HomeController@index')
     ->name('home')
-    ->middleware('throttle:360,1');
+    ->middleware('throttle:60,1');
 
 // welcome
 Route::get('/', 'WelcomeController')
     ->name('index.page')
-    ->middleware('throttle:360,1');
+    ->middleware('throttle:60,1');
 
 // about us
 Route::get('/about-us/{lang}', 'AboutUsController')
     ->name('aboutus')
-    ->middleware('throttle:360,1')
+    ->middleware('throttle:60,1')
     ->where('lang', '[a-z]{2}');
 
 // contact us
 Route::get('/contact-us/{lang}', 'ContactUsController')
     ->name('contactus')
-    ->middleware('throttle:360,1')
+    ->middleware('throttle:60,1')
     ->where('lang', '[a-z]{2}');;
 
 Route::post('/send/email', 'SendEmailController@send')
-    ->name('sending.email')->middleware('throttle:360,1');
+    ->name('sending.email')->middleware('throttle:60,1');
 
 // our services
 Route::get('/our-services/{lang}', 'OurServicesController')
     ->name('ourservices.index')
-    ->middleware('throttle:360,1')
+    ->middleware('throttle:60,1')
     ->where('lang', '[a-z]{2}');
 
 // posts
@@ -105,10 +105,10 @@ Route::delete('/teams/delete/{id}/{lang}', 'TeamController@destroy')
 // comments
 Route::post('/comments/store/{post_id}/{lang}', 'CommentController@store')
     ->name('comments.store')
-    ->middleware('throttle:360,1')
+    ->middleware('throttle:60,1')
     ->where(['post_id' => '[0-9]+', 'lang' => '[a-z]{2}']);
 
 //setLocale
 Route::post('setLocale', 'SetLocaleController')
     ->name('setLocale')
-    ->middleware('throttle:360,1');
+    ->middleware('throttle:60,1');

@@ -19,7 +19,7 @@ class PostController extends Controller implements Language
      */
     public function __construct()
     {
-        $this->middleware('throttle:360,1');
+        $this->middleware('throttle:60,1');
         $this->middleware('auth')->except([
             'index',
             'show'
