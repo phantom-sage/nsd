@@ -11,7 +11,7 @@ class PostTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testPostIndex()
     {
         $this->assertEquals(true, true);
     }

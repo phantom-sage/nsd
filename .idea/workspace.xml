@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85bff408-9dfe-4f8b-9115-454c95d905b9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SendEmailController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SendEmailController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/IndexPostTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/IndexPostTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AboutUsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AboutUsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactUsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactUsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LikeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LikeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OurServicesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OurServicesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/CreatePostTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/EditPostTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/IndexPostTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ShowPostTest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/PostTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/PostTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,25 +31,26 @@
     <session id="465927316">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="env" value="2" />
-          <entry key="php" value="35" />
+          <entry key="php" value="78" />
           <entry key="vue" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="35" />
+          <entry key="PHP" value="78" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Vue.js" value="1" />
         </counts>
@@ -48,12 +58,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="php" value="3752" />
+          <entry key="php" value="5391" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="3752" />
+          <entry key="PHP" value="5391" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
@@ -61,41 +71,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/PostTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="56" column="68" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
-              <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SendEmailController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/EditPostTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="172">
+              <caret line="172" column="39" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
               <folding>
                 <element signature="e#33#46#0#PHP" expanded="true" />
               </folding>
@@ -103,11 +83,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="170">
+              <caret line="99" column="12" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1276">
+              <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -120,15 +109,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/database/migrations/2020_09_02_154340_add_like_id_to_posts_table.php" />
         <option value="$PROJECT_DIR$/app/Post.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ExampleTest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AboutUsController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ContactUsController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/OurServicesController.php" />
         <option value="$PROJECT_DIR$/app/Lang/Language.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SetLocaleController.php" />
         <option value="$PROJECT_DIR$/app/View/Components/Alert.php" />
         <option value="$PROJECT_DIR$/resources/views/components/alert.blade.php" />
@@ -149,28 +133,33 @@
         <option value="$PROJECT_DIR$/resources/views/team/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/one_shot_info.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/contact_us.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/LikeController.php" />
         <option value="$PROJECT_DIR$/resources/views/post/create.blade.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/resources/js/components/CommentsComponent.vue" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/team/index.blade.php" />
         <option value="$PROJECT_DIR$/tests/Feature/AboutusTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ContactusTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/OurServicesTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/SetLocaleTest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
         <option value="$PROJECT_DIR$/database/factories/PostFactory.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/PostTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/CreatePostTest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/IndexPostTest.php" />
-        <option value="$PROJECT_DIR$/tests/Unit/PostTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ShowPostTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/EditPostTest.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SendEmailController.php" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ContactUsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AboutUsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LikeController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/OurServicesController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/PostTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/PostTest.php" />
       </list>
     </option>
   </component>
@@ -294,8 +283,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+    <option name="x" value="419" />
+    <option name="y" value="63" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -338,17 +327,6 @@
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
               <item name="Auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nsd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nsd" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Mail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nsd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nsd" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nsd" type="b2602c69:ProjectViewProjectNode" />
@@ -397,41 +375,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.EditPostTest">
-    <configuration name="CreatePostTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\CreatePostTest" file="$PROJECT_DIR$/tests/Feature/CreatePostTest.php" scope="Class" />
+  <component name="RunManager" selected="PHPUnit.PostTest.testPostUpdate">
+    <configuration name="PostTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\PostTest" file="$PROJECT_DIR$/tests/Feature/PostTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="EditPostTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\EditPostTest" file="$PROJECT_DIR$/tests/Feature/EditPostTest.php" scope="Class" />
+    <configuration name="PostTest.testPostCreate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\PostTest" file="$PROJECT_DIR$/tests/Feature/PostTest.php" method="testPostCreate" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="EditPostTest.testEditPostResourceRoute" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\EditPostTest" file="$PROJECT_DIR$/tests/Feature/EditPostTest.php" method="testEditPostResourceRoute" scope="Method" />
+    <configuration name="PostTest.testPostEdit" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\PostTest" file="$PROJECT_DIR$/tests/Feature/PostTest.php" method="testPostEdit" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ShowPostTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ShowPostTest" file="$PROJECT_DIR$/tests/Feature/ShowPostTest.php" scope="Class" />
+    <configuration name="PostTest.testPostShow" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\PostTest" file="$PROJECT_DIR$/tests/Feature/PostTest.php" method="testPostShow" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ShowPostTest.testShowPostResourceRoute" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ShowPostTest" file="$PROJECT_DIR$/tests/Feature/ShowPostTest.php" method="testShowPostResourceRoute" scope="Method" />
+    <configuration name="PostTest.testPostUpdate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\PostTest" file="$PROJECT_DIR$/tests/Feature/PostTest.php" method="testPostUpdate" scope="Method" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHPUnit.CreatePostTest" />
-      <item itemvalue="PHPUnit.ShowPostTest" />
-      <item itemvalue="PHPUnit.ShowPostTest.testShowPostResourceRoute" />
-      <item itemvalue="PHPUnit.EditPostTest" />
-      <item itemvalue="PHPUnit.EditPostTest.testEditPostResourceRoute" />
+      <item itemvalue="PHPUnit.PostTest" />
+      <item itemvalue="PHPUnit.PostTest.testPostCreate" />
+      <item itemvalue="PHPUnit.PostTest.testPostShow" />
+      <item itemvalue="PHPUnit.PostTest.testPostEdit" />
+      <item itemvalue="PHPUnit.PostTest.testPostUpdate" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.EditPostTest" />
-        <item itemvalue="PHPUnit.EditPostTest.testEditPostResourceRoute" />
-        <item itemvalue="PHPUnit.ShowPostTest.testShowPostResourceRoute" />
-        <item itemvalue="PHPUnit.ShowPostTest" />
-        <item itemvalue="PHPUnit.CreatePostTest" />
+        <item itemvalue="PHPUnit.PostTest.testPostUpdate" />
+        <item itemvalue="PHPUnit.PostTest" />
+        <item itemvalue="PHPUnit.PostTest.testPostEdit" />
+        <item itemvalue="PHPUnit.PostTest.testPostShow" />
+        <item itemvalue="PHPUnit.PostTest.testPostCreate" />
       </list>
     </recent_temporary>
   </component>
@@ -460,44 +438,49 @@
       <workItem from="1599397666795" duration="6582000" />
       <workItem from="1599411856302" duration="964000" />
       <workItem from="1599418404912" duration="500000" />
-      <workItem from="1599561836239" duration="2430000" />
+      <workItem from="1599561836239" duration="3333000" />
+      <workItem from="1599829003084" duration="6838000" />
+      <workItem from="1599847564370" duration="69000" />
+      <workItem from="1599847702563" duration="389000" />
+      <workItem from="1599988109990" duration="826000" />
+      <workItem from="1600347221742" duration="1115000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShowPostTest_testShowPostResourceRoute - 2020.09.08 at 13h 03m 31s.xml">
-      <configuration name="ShowPostTest.testShowPostResourceRoute" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PostTest_testPostUpdate - 2020.09.13 at 11h 20m 32s.xml">
+      <configuration name="PostTest.testPostUpdate" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ShowPostTest_testShowPostResourceRoute - 2020.09.08 at 13h 04m 09s.xml">
-      <configuration name="ShowPostTest.testShowPostResourceRoute" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PostTest_testPostUpdate - 2020.09.13 at 11h 20m 48s.xml">
+      <configuration name="PostTest.testPostUpdate" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="EditPostTest - 2020.09.08 at 13h 08m 09s.xml">
-      <configuration name="EditPostTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PostTest_testPostUpdate - 2020.09.17 at 15h 00m 14s.xml">
+      <configuration name="PostTest.testPostUpdate" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="EditPostTest_testEditPostResourceRoute - 2020.09.08 at 13h 08m 39s.xml">
-      <configuration name="EditPostTest.testEditPostResourceRoute" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PostTest - 2020.09.17 at 15h 02m 49s.xml">
+      <configuration name="PostTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="EditPostTest_testEditPostResourceRoute - 2020.09.08 at 13h 10m 26s.xml">
-      <configuration name="EditPostTest.testEditPostResourceRoute" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PostTest_testPostUpdate - 2020.09.17 at 15h 05m 29s.xml">
+      <configuration name="PostTest.testPostUpdate" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="EditPostTest_testEditPostResourceRoute - 2020.09.08 at 13h 10m 43s.xml">
-      <configuration name="EditPostTest.testEditPostResourceRoute" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PostTest_testPostUpdate - 2020.09.17 at 15h 08m 41s.xml">
+      <configuration name="PostTest.testPostUpdate" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="EditPostTest_testEditPostResourceRoute - 2020.09.08 at 13h 13m 13s.xml">
-      <configuration name="EditPostTest.testEditPostResourceRoute" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PostTest_testPostUpdate - 2020.09.17 at 15h 09m 16s.xml">
+      <configuration name="PostTest.testPostUpdate" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="EditPostTest_testEditPostResourceRoute - 2020.09.08 at 13h 14m 02s.xml">
-      <configuration name="EditPostTest.testEditPostResourceRoute" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PostTest_testPostUpdate - 2020.09.17 at 15h 09m 44s.xml">
+      <configuration name="PostTest.testPostUpdate" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="EditPostTest_testEditPostResourceRoute - 2020.09.08 at 13h 14m 48s.xml">
-      <configuration name="EditPostTest.testEditPostResourceRoute" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PostTest_testPostUpdate - 2020.09.17 at 15h 10m 28s.xml">
+      <configuration name="PostTest.testPostUpdate" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="EditPostTest - 2020.09.08 at 13h 15m 54s.xml">
-      <configuration name="EditPostTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PostTest_testPostUpdate - 2020.09.17 at 15h 11m 43s.xml">
+      <configuration name="PostTest.testPostUpdate" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67991000" />
+    <option name="totallyTimeSpent" value="78131000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,20 +495,20 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47934783" visible="true" weight="0.19722815" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47934783" visible="true" weight="0.20575693" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5206522" side_tool="true" weight="0.14072494" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32934782" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40347072" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40347072" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32934782" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.335141" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.335141" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32934782" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -541,55 +524,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_custom-classes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/post/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="76" column="11" lean-forward="true" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="165" column="39" lean-forward="true" selection-start-line="165" selection-start-column="39" selection-end-line="165" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/team/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/our_services.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="120" lean-forward="true" selection-start-line="24" selection-start-column="120" selection-end-line="24" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1138">
@@ -666,13 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LikeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2020_06_08_183749_create_teams_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -698,13 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -736,24 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SetLocaleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/SetLocaleTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1232">
           <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -788,20 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/CreatePostTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TeamController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -823,54 +715,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/PostTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/IndexPostTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#33#46#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ShowPostTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="56" column="68" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/EditPostTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#33#46#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ShowPostTest.php" />
     <entry file="file://$PROJECT_DIR$/app/Mail/ContactUs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -878,20 +723,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SendEmailController.php">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="479">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LikeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="89" column="7" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactUsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AboutUsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/OurServicesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TeamController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="373" lean-forward="true" selection-start-line="373" selection-end-line="373" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SetLocaleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="506">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SendEmailController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/PostTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/IndexPostTest.php" />
+    <entry file="file://$PROJECT_DIR$/tests/Feature/CreatePostTest.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="56" column="68" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/EditPostTest.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="99" column="12" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1276">
+          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/PostTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="172" column="39" selection-start-line="172" selection-start-column="39" selection-end-line="172" selection-end-column="39" />
+          <folding>
+            <element signature="e#33#46#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

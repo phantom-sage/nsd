@@ -11,7 +11,7 @@ class CommentController extends Controller implements Language
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     *
      */
     public function index()
     {
@@ -21,7 +21,7 @@ class CommentController extends Controller implements Language
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
+     *
      */
     public function create()
     {
@@ -61,7 +61,7 @@ class CommentController extends Controller implements Language
      * Display the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     *
      */
     public function show($id)
     {
@@ -72,7 +72,7 @@ class CommentController extends Controller implements Language
      * Show the form for editing the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     *
      */
     public function edit($id)
     {
@@ -84,7 +84,7 @@ class CommentController extends Controller implements Language
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     *
      */
     public function update(Request $request, $id)
     {
@@ -95,7 +95,7 @@ class CommentController extends Controller implements Language
      * Remove the specified resource from storage.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     *
      */
     public function destroy($id)
     {

@@ -9,7 +9,7 @@ class AboutUsController extends Controller implements Language
     /**
      * Show the about us page.
      * @param $lang
-     * @return \Illuminate\Contracts\Support\Renderable
+     * @return \Illuminate\Http\Response
      */
     public function __invoke($lang)
     {

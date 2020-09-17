@@ -9,7 +9,7 @@ class ContactUsController extends Controller implements Language
     /**
      * Show the contact us page.
      * @param $lang
-     * @return \Illuminate\Contracts\Support\Renderable
+     * @return \Illuminate\Http\Response
      */
     public function __invoke($lang)
     {

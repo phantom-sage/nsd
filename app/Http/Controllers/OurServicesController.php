@@ -7,8 +7,8 @@ class OurServicesController extends Controller implements Language
 {
     /**
      * Show the our services page.
-     * @param $lang
-     * @return \Illuminate\Contracts\Support\Renderable
+     * @param string $lang
+     * @return \Illuminate\Http\Response
      */
     public function __invoke($lang)
     {

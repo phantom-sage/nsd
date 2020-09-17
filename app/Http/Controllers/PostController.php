@@ -28,7 +28,7 @@ class PostController extends Controller implements Language
 
     /**
      * Display a listing of the resource.
-     *
+     * @param string $lang
      * @return \Illuminate\Http\Response
      */
     public function index($lang)
@@ -48,26 +48,19 @@ class PostController extends Controller implements Language
 
     /**
      * Show the form for creating a new resource.
-     *
+     * @param string $lang
      * @return \Illuminate\Http\Response
      */
     public function create($lang)
     {
-        if(!Auth::user())
+        if (in_array($lang, self::array_of_langs))
         {
-            return redirect('/login');
+            \App::setLocale($lang);
+            return view('post.create', ['lang' => \App::getLocale()]);
         }
         else
         {
-            if (in_array($lang, self::array_of_langs))
-            {
-                \App::setLocale($lang);
-                return view('post.create', ['lang' => \App::getLocale()]);
-            }
-            else
-            {
-                abort(404);
-            }
+            abort(404);
         }
     }
 
@@ -75,53 +68,46 @@ class PostController extends Controller implements Language
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
+     * @param string $lang
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request, $lang)
     {
-        if(!Auth::user())
+        if (in_array($lang, self::array_of_langs))
         {
-            abort(403);
+            $validPostData = $request->validate([
+                'en_title' => 'required|unique:posts|min:8|max:255',
+                'ar_title' => 'required|unique:posts|min:8|max:255',
+                'en_body' => 'required|string|min:8|max:255',
+                'ar_body' => 'required|string|min:8|max:255',
+                'logo' => 'required|image',
+            ]);
+
+            $post_logo_path = $request->file('logo')->store('');
+
+            $post = new Post();
+            $post->en_title = $validPostData['en_title'];
+            $post->ar_title = $validPostData['ar_title'];
+
+            $post->en_body = $validPostData['en_body'];
+            $post->ar_body = $validPostData['ar_body'];
+            $post->logo = $post_logo_path;
+            $post->user_id = Auth::user()->id;
+
+            $post->save();
+
+            \App::setLocale($lang);
+            return redirect()->route('posts.index', \App::getLocale())->with('newPostStatus', 'Post Created Successfully');
         }
         else
         {
-            if (in_array($lang, self::array_of_langs))
-            {
-                $validPostData = $request->validate([
-                    'en_title' => 'required|unique:posts|min:8|max:255',
-                    'ar_title' => 'required|unique:posts|min:8|max:255',
-                    'en_body' => 'required|string|min:8|max:255',
-                    'ar_body' => 'required|string|min:8|max:255',
-                    'logo' => 'required|image',
-                ]);
-
-                $post_logo_path = $request->file('logo')->store('');
-
-                $post = new Post();
-                $post->en_title = $validPostData['en_title'];
-                $post->ar_title = $validPostData['ar_title'];
-
-                $post->en_body = $validPostData['en_body'];
-                $post->ar_body = $validPostData['ar_body'];
-                $post->logo = $post_logo_path;
-                $post->user_id = Auth::user()->id;
-
-                $post->save();
-
-                \App::setLocale($lang);
-                return redirect()->route('posts.index', \App::getLocale())->with('newPostStatus', 'Post Created Successfully');
-            }
-            else
-            {
-                abort(404);
-            }
+            abort(404);
         }
-
     }
 
     /**
      * Display the specified resource.
-     *
+     * @param string $lang
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
@@ -150,6 +136,7 @@ class PostController extends Controller implements Language
      * Show the form for editing the specified resource.
      *
      * @param  int  $id
+     * @param string $lang
      * @return \Illuminate\Http\Response
      */
     public function edit($id, $lang)
@@ -185,6 +172,7 @@ class PostController extends Controller implements Language
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
+     * @param string $lang
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id, $lang)
@@ -209,7 +197,7 @@ class PostController extends Controller implements Language
                         'ar_body' => 'required|string|min:8|max:1000',
                         'logo' => 'nullable|image',
                     ]);
-                    //return strcmp($validPostData['en_title'], $post->en_title);
+
                     // comparing en_title
                     if ($validPostData['en_title'] !== $post->en_title)
                     {
@@ -263,6 +251,7 @@ class PostController extends Controller implements Language
      * Remove the specified resource from storage.
      *
      * @param  int  $id
+     * @param string $lang
      * @return \Illuminate\Http\Response
      */
     public function destroy($id, $lang)
