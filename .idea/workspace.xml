@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85bff408-9dfe-4f8b-9115-454c95d905b9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/SecureHeaders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nsd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nsd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/LikeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/AboutusTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/AboutusTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +239,8 @@
       <workItem from="1599988109990" duration="826000" />
       <workItem from="1600347221742" duration="1894000" />
       <workItem from="1600441224808" duration="601000" />
-      <workItem from="1600491007950" duration="535000" />
+      <workItem from="1600491007950" duration="657000" />
+      <workItem from="1600493163095" duration="431000" />
     </task>
     <servers />
   </component>
@@ -266,9 +266,7 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -282,21 +280,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="674" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1600491379942" />
-    <state width="1877" height="343" key="GridCell.Tab.0.bottom" timestamp="1600491518603">
+    <state width="1877" height="819" key="GridCell.Tab.0.bottom" timestamp="1600491682211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600491518603" />
-    <state width="1877" height="343" key="GridCell.Tab.0.center" timestamp="1600491518602">
+    <state width="1877" height="819" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600491682211" />
+    <state width="1877" height="819" key="GridCell.Tab.0.center" timestamp="1600491682210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="343" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600491518602" />
-    <state width="1877" height="343" key="GridCell.Tab.0.left" timestamp="1600491518602">
+    <state width="1877" height="819" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600491682210" />
+    <state width="1877" height="819" key="GridCell.Tab.0.left" timestamp="1600491682210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="343" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600491518602" />
-    <state width="1877" height="343" key="GridCell.Tab.0.right" timestamp="1600491518603">
+    <state width="1877" height="819" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600491682210" />
+    <state width="1877" height="819" key="GridCell.Tab.0.right" timestamp="1600491682210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="343" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600491518603" />
+    <state width="1877" height="819" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600491682210" />
   </component>
 </project>
