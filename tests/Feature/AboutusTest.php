@@ -17,6 +17,7 @@ class AboutusTest extends TestCase
     {
         $response = $this->get('/about-us/en');
 
+        $response->dumpHeaders();
         $response->assertStatus(200);
     }
 
